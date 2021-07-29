@@ -34,6 +34,9 @@ $ make win64
 
 $ ls -la 
 -rwxrwxrwx 1 yoooov yoooov   569856 Jul 29 11:40 hashcat64.exe
+
+$ sudo apt-get install gcc-mingw-w64-i686
+
 ```
 
 ### Contributing ###
