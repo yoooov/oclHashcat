@@ -22,6 +22,20 @@ Please refer to the [Hashcat Wiki](https://hashcat.net/wiki/) and the output of 
 
 Refer to [BUILD.md](BUILD.md) for instructions on how to build **hashcat** from source.
 
+Get a copy of the **OpenCL Headers** repository
+
+```sh
+$ git clone https://github.com/KhronosGroup/OpenCL-Headers
+
+$ cp -r OpenCL-Headers/CL oclHashcat/include/CL
+
+$ cd oclHashcat
+$ make win64
+
+$ ls -la 
+-rwxrwxrwx 1 yoooov yoooov   569856 Jul 29 11:40 hashcat64.exe
+```
+
 ### Contributing ###
 
 Contributions are welcome and encouraged, provided your code is of sufficient quality. Before submitting a pull request, please ensure your code adheres to the following requirements:
